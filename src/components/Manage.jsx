@@ -5,7 +5,7 @@ const Manage = () => {
   const [username, setusername] = useState('');
   const [password, setpassword] = useState('');
   const handleAddAdmin=()=>{
-    axios.post('http://localhost:3001/admins',{username,password})
+    axios.post('https://e-commerceiek.herokuapp.com/admins',{username,password})
     setusername('')
     setpassword('')
   }

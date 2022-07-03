@@ -7,7 +7,7 @@ import Image from 'next/image'
 const ProductRow = ({product}) => {
   const handleDelete=(id)=>{
     const item=id
-    axios.post('http://localhost:3001/delete',{id:item}).then(response=>{
+    axios.post('https://e-commerceiek.herokuapp.com/delete',{id:item}).then(response=>{
       console.log(response)
     })
   }

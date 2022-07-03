@@ -26,7 +26,7 @@ export default function FullScreenDialog({opensearch,closesearch}) {
   const [search, setsearch] = useState('');
   const [searchnone, setsearchnone] = useState(true);
   useEffect(()=>{
-    axios.get('http://localhost:3001/products').then(response=>{
+    axios.get('https://e-commerceiek.herokuapp.com/products').then(response=>{
       setproducts(response.data)
     })
   },[])

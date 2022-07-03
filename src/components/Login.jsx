@@ -7,7 +7,7 @@ const Login = ({handleloggedin}) => {
   const [password, setpassword] = useState('');
   const [message, setmessage] = useState('');
   const handlelogin=()=>{
-    axios.post('http://localhost:3001/login',{username,password}).then((response)=>{
+    axios.post('https://e-commerceiek.herokuapp.com/login',{username,password}).then((response)=>{
       handleloggedin(response.data.token)
       setmessage(response.data.message)
 

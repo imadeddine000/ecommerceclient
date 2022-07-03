@@ -7,7 +7,7 @@ import axios from 'axios'
 const Content = () => {
   const [products, setproducts] = useState([]);
   useEffect(() => {
-    axios.get('http://localhost:3001/products').then(response=>{
+    axios.get('https://e-commerceiek.herokuapp.com/products').then(response=>{
       setproducts(response.data)
     })
   }, []);

@@ -7,7 +7,7 @@ const [title, settitle] = useState('');
 const [price, setprice] = useState('');
 const [img, setimg] = useState('');
 const handleAdd=()=>{
-  Axios.post('http://localhost:3001/addproduct',{title:title,price:price,img:img}).then(resposne=>{
+  Axios.post('https://e-commerceiek.herokuapp.com/addproduct',{title:title,price:price,img:img}).then(resposne=>{
     console.log(resposne.data)
   })
   setprice('')
