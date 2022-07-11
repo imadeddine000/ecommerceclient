@@ -41,6 +41,7 @@ const Login = ({handleloggedin}) => {
                </Typography>
              </Paper>
         </Container>
+        you can use :username:test,password:test to test the app
         
     </>
   )
