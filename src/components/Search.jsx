@@ -79,7 +79,7 @@ export default function FullScreenDialog({opensearch,closesearch}) {
               <Box >
               </Box> 
               <ListItemAvatar sx={{width:150}}>
-              <Image src={product.img} alt={product.title} style={{width:'100%'}} />
+              <img src={product.img} alt={product.title} style={{width:'100%'}} />
               </ListItemAvatar>   
            </ListItem>
             <Divider/>

@@ -9,6 +9,7 @@ import Head from 'next/head'
 import Notification from '../src/components/Notification'
 import DrawerCom from '../src/components/Drawer'
 import Footer from '../src/components/Footer'
+import Image from 'next/image'
 export default function Home() {
   return (
     <>
@@ -18,11 +19,11 @@ export default function Home() {
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
     </Head>
       <Navbar/>
-      {/* <DrawerCom/> */}
-      <Container sx={{height:'40vh'}}>
+      <DrawerCom/>  
+       <Container sx={{height:'40vh'}}>
         <SwiperCom/>
       </Container>
-      {/* <GridProducts/> */}
+      
       <Content/> 
       <Footer/>
     </>

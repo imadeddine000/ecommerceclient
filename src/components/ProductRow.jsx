@@ -17,7 +17,7 @@ const ProductRow = ({product}) => {
               <TableCell>{product.title}</TableCell>
               <TableCell>{product.price}</TableCell>
               <TableCell sx={{width:5,height:5}}>
-                <Image src={product.img} alt={product.title} style={{width:'100%'}}/>
+                <img src={product.img} alt={product.title} style={{width:'100%'}} layout='fill'/>
               </TableCell>
               <TableCell align='right'>
                 <IconButton onClick={()=>handleDelete(product._id)}>

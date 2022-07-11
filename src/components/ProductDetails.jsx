@@ -10,7 +10,7 @@ const Productdetails = ({item}) => {
             <Container sx={{heigth:'100vh',backgroundColor:'white',display:'flex',padding:5,flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:{xs:'center',md:'flex-start'}}}>
                
                <div>
-                   <Image src={item.img} alt="" style={{width:'300px',height:'300px'}}/>
+                   <img src={item.img} alt="" style={{width:'300px',height:'300px'}}/>
                </div>
                <div style={{margin:'10px'}}>
                    <h1>{item.title}</h1>

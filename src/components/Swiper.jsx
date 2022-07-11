@@ -22,10 +22,11 @@ export default function SwiperCom() {
         autoplay={{delay:1500}}
         className="mySwiper"
       >
-        <SwiperSlide> <Image src="https://uidesign.gbtcdn.com/GB/image/8823/VIP_1190x420_EN.jpg" /> </SwiperSlide>
-        <SwiperSlide> <Image src="https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg" /></SwiperSlide>
-        <SwiperSlide> <Image src="https://uidesign.gbtcdn.com/GB/image/8823/ATOMSTACK+_PC_En.jpg" alt="" /> </SwiperSlide>
-        <SwiperSlide> <Image src="https://imgaz.staticbg.com/banggood/os/202206/20220623215104_319.jpg" alt="" /> </SwiperSlide>
+        
+        <SwiperSlide> <img src="https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg" layout='fill' /> </SwiperSlide>
+        <SwiperSlide> <img src="https://uidesign.gbtcdn.com/GB/image/8823/1190X420.jpg" layout='fill' /></SwiperSlide>
+        <SwiperSlide> <img src="https://uidesign.gbtcdn.com/GB/image/8823/ATOMSTACK+_PC_En.jpg" alt="" layout='fill' /> </SwiperSlide>
+        <SwiperSlide> <img src="https://imgaz.staticbg.com/banggood/os/202206/20220623215104_319.jpg" alt="" layout='fill' /> </SwiperSlide>
       </Swiper>
     </>
   );

@@ -8,7 +8,7 @@ const Product = ({product}) => {
     <>
         <Card variant="outlined" sx={{backgroundColor:'white',color:'white',borderRadius:0,padding:1,paddingTop:2,paddingBottom:2,color:'black','&:hover':{border:'1px solid white',cursor:'pointer'}}}>
             <Box sx={{}}>
-              <Image src={product.img} alt="" style={{width:'100%',height:'200px',objectFit:'cover'}} />
+              <img src={product.img} alt="" style={{width:'100%',height:'200px',objectFit:'cover'}} />
             </Box>
             <Box sx={{textAlign:'start',margin:1,fontSize:{xs:10},'&:hover':{color:'orange'},height:{xs:70}}}>
               <a href={"/products/"+product._id}>

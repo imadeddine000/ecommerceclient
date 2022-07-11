@@ -10,7 +10,7 @@ const Details = () => {
   useEffect(() => {
     let id=window.location.pathname.substring(10,window.location.pathname.length)
     setid(id)
-    axios.get('http://localhost:3001/products').then(response=>{
+    axios.get('https://e-commerceiek.herokuapp.com/products').then(response=>{
         setproducts(response.data)
     })
   }, []);
